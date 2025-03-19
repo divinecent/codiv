@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    margin-top: 70px; /* Adjust for fixed navbar */
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #87ceeb; /* Sky blue */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    color: #000;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Products Section */
+  .products h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #ffffff; /* White background */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  .card-img-top {
+    height: 200px; /* Adjust image height */
+    object-fit: cover;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Primary Blue */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #87ceeb; /* Sky blue */
+    color: #333;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .footer a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .brand-logo h4 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .card-img-top {
+      height: 150px; /* Smaller height for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .products h2 {
+      font-size: 2rem;
+    }
+  }
+  

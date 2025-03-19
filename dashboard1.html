@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="my css/dashboard1.css">
+  <link rel="icon" href="img/images.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <title>Codiv Dashboard</title>
+</head>
+<body class="signup-and-login">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #87ceeb;">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-primary" href="#">Codiv</a>
+      <div class="d-flex align-items-center">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="userMenu" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i> User
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userMenu">
+            <li><a class="dropdown-item" href="#">Change Profile</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="d-flex">
+    <!-- Sidebar -->
+    <div class="container-fluid">
+        <div class="row">
+          <!-- Sidebar -->
+          <nav id="sidebar" class="col-md-3 col-lg-2 bg-light sidebar">
+            <div class="position-sticky pt-3">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#homeSubmenu" role="button" aria-expanded="false" aria-controls="homeSubmenu">Home</a>
+                  <div class="collapse" id="homeSubmenu">
+                    <ul class="list-unstyled">
+                      <li><a href="#" id="homeAdd" class="nav-link">Add</a></li>
+                      <li><a href="#" id="homeManage" class="nav-link">Manage</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#aboutSubmenu" role="button" aria-expanded="false" aria-controls="aboutSubmenu">About</a>
+                  <div class="collapse" id="aboutSubmenu">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a class="nav-link" data-bs-toggle="collapse" href="#projectsSubmenu" role="button" aria-expanded="false" aria-controls="projectsSubmenu">Our Projects</a>
+                        <div class="collapse" id="projectsSubmenu">
+                          <ul class="list-unstyled">
+                            <li><a href="#" id="projectsAdd" class="nav-link">Add</a></li>
+                            <li><a href="#" id="projectsManage" class="nav-link">Manage</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li>
+                        <a class="nav-link" data-bs-toggle="collapse" href="#productsSubmenu" role="button" aria-expanded="false" aria-controls="productsSubmenu">Our Products</a>
+                        <div class="collapse" id="productsSubmenu">
+                          <ul class="list-unstyled">
+                            <li><a href="#" id="productsAdd" class="nav-link">Add</a></li>
+                            <li><a href="#" id="productsManage" class="nav-link">Manage</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li>
+                        <a class="nav-link" data-bs-toggle="collapse" href="#biographySubmenu" role="button" aria-expanded="false" aria-controls="biographySubmenu">Our Biography</a>
+                        <div class="collapse" id="biographySubmenu">
+                          <ul class="list-unstyled">
+                            <li><a href="#" id="biographyAdd" class="nav-link">Add</a></li>
+                            <li><a href="#" id="biographyManage" class="nav-link">Manage</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#visionSubmenu" role="button" aria-expanded="false" aria-controls="visionSubmenu">Our Vision</a>
+                  <div class="collapse" id="visionSubmenu">
+                    <ul class="list-unstyled">
+                      <li><a href="#" id="visionAdd" class="nav-link">Add</a></li>
+                      <li><a href="#" id="visionManage" class="nav-link">Manage</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#contactSubmenu" role="button" aria-expanded="false" aria-controls="contactSubmenu">Contact Me</a>
+                  <div class="collapse" id="contactSubmenu">
+                    <ul class="list-unstyled">
+                      <li><a href="#" id="contactAdd" class="nav-link">Add</a></li>
+                      <li><a href="#" id="contactManage" class="nav-link">Manage</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      
+          <!-- Main Content Area -->
+          <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4" id="main-content">
+            <h2 class="text-center my-4">Welcome to the Dashboard</h2>
+            <!-- Placeholder for dynamic content -->
+            <div id="dynamic-content"></div>
+          </main>
+        </div>
+      </div>
+      
+
+  <!-- Footer -->
+  <footer class="footer py-3 text-center" style="background-color: #1e90ff; color: white;">
+    <p class="mb-0">Codiv Dashboard &copy; 2024</p>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/dashboard1.js"></script>
+</body>
+</html>

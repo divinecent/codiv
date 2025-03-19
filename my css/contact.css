@@ -1,0 +1,53 @@
+/* Reset and global styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to right, #87ceeb, #1e90ff);
+  }
+  
+  .navbar {
+    background-color: #87ceeb;
+  }
+  
+  .navbar-brand {
+    color: #1e90ff !important;
+  }
+  
+  /* Set color for all nav links */
+  .nav-link {
+    color: blue !important;
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown-menu .dropdown-item {
+    color: blue !important;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #e0f0ff; /* Optional hover effect */
+    color: #0056b3; /* Darker blue on hover */
+  }
+
+  css code
+/* Contact Us Section */
+section.container {
+    background-color: #ffffff; /* White background for content */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Icon Styling */
+.icon {
+    font-size: 2rem;
+    color:  #ffffff; /* Theme green for icons */
+    margin-bottom: 10px;
+}
+
+h5 {
+    color: #ffffff ; /* Green headings */
+}

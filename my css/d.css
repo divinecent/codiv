@@ -1,0 +1,51 @@
+/* Sidebar style */
+#sidebar {
+    width: 250px;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.submenu {
+    list-style: none;
+    padding-left: 20px;
+    display: none;
+}
+
+.submenu .nav-link {
+    font-size: 0.9rem;
+}
+
+/* Main content styles */
+#forms-section .form-group {
+    margin-bottom: 20px;
+}
+
+.upload-btn {
+    margin-left: auto;
+}
+
+.tables-section {
+    margin-top: 30px;
+}
+
+
+
+.submenu {
+    display: none; /* Initially hidden */
+    padding-left: 20px; /* Indent nested submenus */
+    margin-top: 5px;
+}
+
+.submenu a {
+    font-size: 14px; /* Adjust font size for submenu items */
+}
+
+.nav-link {
+    cursor: pointer; /* Show pointer on hover */
+}
+
+.submenu.show {
+    display: block; /* Display submenu when toggled */
+}

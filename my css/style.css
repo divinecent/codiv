@@ -1,0 +1,133 @@
+/* Reset and global styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #87ceeb, #1e90ff);
+}
+body.signup-and-login{
+background-image: url(/img/3.jpg);
+background-size: cover;
+}
+
+
+.navbar {
+  background-color: #87ceeb;
+}
+
+.navbar-brand {
+  color: #1e90ff !important;
+}
+
+/* Set color for all nav links */
+.nav-link {
+  color: blue !important;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu .dropdown-item {
+  color: blue !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #e0f0ff; /* Optional hover effect */
+  color: #0056b3; /* Darker blue on hover */
+}
+
+.hero-section {
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: #1e90ff;
+}
+
+/* .signup-form {
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+.carousel-caption {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.carousel img {
+  filter: brightness(75%);
+}
+
+.signup-form {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer ul {
+  text-align: center;
+}
+
+.footer ul a {
+  color: #fff;
+}
+
+.footer {
+  background-color: #1e90ff;
+  color: #fff;
+}
+.landing-section h2, .gallery .card-text {
+  color: #1e90ff;
+}
+
+.gallery .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.gallery .card:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  background: linear-gradient(90deg, #87ceeb, #1e90ff);
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #1e90ff;
+}
+
+.brand-logo h4 {
+  text-align: right;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+#home {
+  background: url('https://source.unsplash.com/1600x900/?construction') no-repeat center center/cover;
+  color: white;
+}
+
+#about {
+  background-color: #343a40;
+  color: white;
+}
+
+#contactForm input,
+#contactForm textarea {
+  border-radius: 5px;
+}

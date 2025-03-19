@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin-top: 70px; /* Offset for fixed navbar */
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #87ceeb;
+  }
+  
+  .navbar a {
+    color: #000 !important;
+  }
+  
+  .navbar .social-icons i {
+    font-size: 1.2rem;
+    color: #000;
+  }
+  
+  .navbar .social-icons i:hover {
+    color: #007bff;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    background-color: #f9f9f9;
+  }
+  
+  .projects-section h2 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .projects-section .card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .projects-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .projects-section .card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .projects-section .card-title {
+    font-size: 1.25rem;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .projects-section .card-text {
+    color: #555;
+  }
+  
+  .projects-section .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .projects-section .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #87ceeb;
+    color: #000;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .brand-logo h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .footer ul {
+    padding-left: 0;
+  }
+  
+  .footer ul li {
+    list-style-type: none;
+  }
+  
+  .footer ul li a {
+    color: #333;
+  }
+  
+  .footer ul li a:hover {
+    color: #007bff;
+  }
+  

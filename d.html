@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="my css/d.css">
+  <link rel="icon" href="img/images.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <title>Codiv Dashboard</title>
+</head>
+<body class="signup-and-login">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #87ceeb;">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-primary" href="#">Codiv</a>
+      <div class="d-flex align-items-center">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="userMenu" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i> User
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userMenu">
+            <li><a class="dropdown-item" href="#">Change Profile</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- end of navbar -->
+
+<!-- sidebar -->
+
+<div class="d-flex">
+    <!-- Sidebar -->
+    <nav id="sidebar" class="bg-dark text-white vh-100 p-3">
+        <h4>Dashboard</h4>
+        <ul class="nav flex-column">
+            <!-- Home -->
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white" id="home-btn">Home</a>
+                <ul id="home-submenu" class="submenu">
+                    <li><a href="#" class="nav-link text-white" id="add-home">Add</a></li>
+                    <li><a href="#" class="nav-link text-white" id="manage-home">Manage</a></li>
+                </ul>
+            </li>
+        
+            <!-- About -->
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white" id="about-btn">About</a>
+                <ul id="about-submenu" class="submenu">
+                    <li>
+                        <a href="#" class="nav-link text-white" id="projects-btn">Our Projects</a>
+                        <ul id="projects-submenu" class="submenu">
+                            <li><a href="#" class="nav-link text-white" id="add-projects">Add</a></li>
+                            <li><a href="#" class="nav-link text-white" id="manage-projects">Manage</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white" id="products-btn">Our Products</a>
+                        <ul id="products-submenu" class="submenu">
+                            <li><a href="#" class="nav-link text-white" id="add-products">Add</a></li>
+                            <li><a href="#" class="nav-link text-white" id="manage-products">Manage</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white" id="biography-btn">Our Biography</a>
+                        <ul id="biography-submenu" class="submenu">
+                            <li><a href="#" class="nav-link text-white" id="add-biography">Add</a></li>
+                            <li><a href="#" class="nav-link text-white" id="manage-biography">Manage</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        
+            <!-- Our Vision -->
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white" id="vision-btn">Our Vision</a>
+                <ul id="vision-submenu" class="submenu">
+                    <li><a href="#" class="nav-link text-white" id="add-vision">Add</a></li>
+                    <li><a href="#" class="nav-link text-white" id="manage-vision">Manage</a></li>
+                </ul>
+            </li>
+        
+            <!-- Contact Me -->
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white" id="contact-btn">Contact Me</a>
+                <ul id="contact-submenu" class="submenu">
+                    <li><a href="#" class="nav-link text-white" id="add-contact">Add</a></li>
+                    <li><a href="#" class="nav-link text-white" id="manage-contact">Manage</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container-fluid p-4" id="main-content">
+        <h2>Welcome to the Dashboard</h2>
+        <div id="forms-section" class="d-none">
+            <!-- Dynamic forms will be injected here -->
+        </div>
+        <div id="tables-section" class="d-none">
+            <!-- Dynamic tables will be injected here -->
+        </div>
+    </main>
+</div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="my javascript/d.js"></script>
+</body>
+</html>
